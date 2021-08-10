@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="firefoxtestTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="test.testclass">
+        <methods>
+          <include name="aftersuit"/>
+          <include name="closedbrowser"/>
+          <include name="loginto"/>
+          <include name="testB"/>
+          <include name="maximize"/>
+          <include name="testA"/>
+          <include name="afterclass"/>
+          <include name="launchbrowser"/>
+          <include name="beforemethod"/>
+          <include name="beforesuit"/>
+        </methods>
+      </class> <!-- test.testclass -->
+    </classes>
+  </test> <!-- firefoxtestTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
